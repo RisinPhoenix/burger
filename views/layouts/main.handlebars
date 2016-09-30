@@ -1,0 +1,33 @@
+<!--
+Here is the main HTML where handlebars will render to
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+<!-- 
+basic css links
+ -->
+		<link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+		<title>Epic Burger Restraunt!</title>
+	</head>
+	<body>
+<!--
+Sets up title and title picture
+ -->
+	<div class="container">
+       		<div class="row" id="first">
+       			<div class="col-md-12" >
+       				<h1><strong>Burger Me!</strong></h1>
+       			</div>
+       			<div class="col-md-12">
+       				<img class="picture" src="/assets/img/tasty-burgers.jpg" alt="Epic Burger" style="width:50%;height:350px;border:0;">
+       			</div>		
+            </div>
+        </div>
+		{{{ body }}}
+	</body>
+</HTML>

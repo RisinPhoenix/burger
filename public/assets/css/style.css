@@ -1,0 +1,30 @@
+/*Sets any background to image of green marble*/
+html { 
+  background:url("/assets/img/marblechess.jpg")  no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*sets base font color to yellow, font size to 30px, aligns text to center, sets green marble to be the background for everything in body*/
+body {
+	color:yellow;
+	text-align:center;
+	font-size:30px;
+	background-image:url("/assets/img/marblechess.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/*changes the font color of everything in the burger id to black*/
+#burger{
+	color:black;
+}
+/*changes the font color of everything in id addButton to black*/
+#addButton{
+	color:black;
+}
+/*sets test to align left in class alignLeft*/
+.alignLeft {
+	text-align:left;
+}
+
